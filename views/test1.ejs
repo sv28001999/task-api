@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Testing1</title>
+</head>
+<body>
+    <%- include('common/head1') %>
+    <h1>This is testing page 1</h1>
+    <h2>Name: <%= detail.name %></h2>
+    <h2>Email: <%= detail.email %></h2>
+    <h2>Skill: <%= detail.skill %></h2>
+
+    <ul><% detail.skill.forEach(item=>{ %>
+        <li><%= item %></li>
+        <%}) %>
+    </ul>
+</body>
+</html>

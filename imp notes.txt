@@ -1,0 +1,5 @@
+Do this after project is done:
+    1. Open powershell with "Run as administrator"
+    2. Enter "Set-ExecutionPolicy Restricted" command
+------------End-----------End------------End-------------End-------------
+
